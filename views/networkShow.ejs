@@ -4,6 +4,7 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="find.css">
         <!-- <link href="css/style.css" rel="stylesheet"> -->
     </head>
     <body>
@@ -11,8 +12,9 @@
             <% docs.forEach((doc,i)=>{ %>
                 <li><b><%= doc.title %> </b> </li>
                 <br>
+                
                 <a id="<%=i%>" href="<%= doc.link %>"> <%= doc.link %> </a>
-                <button onclick="func('<%=i%>')">scrape</button>
+                <button id="b"onclick="func('<%=i%>')">scrape</button>
                 <div id="yo<%=i%>"></div>
                 <br><br>
             <% }); %>

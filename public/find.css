@@ -1,0 +1,14 @@
+body{
+    background: linear-gradient(yellow,gray);
+}
+a{
+    text-decoration: none;
+   
+}
+#b{
+    border-radius: 2vh;
+    cursor: pointer;
+}
+li{
+    font-size: 3.5vh;
+}

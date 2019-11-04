@@ -1,225 +1,233 @@
 *{
-        margin: 0px;
-        padding: 0px;
-    }
+  margin: 0px;
+  padding: 0px;
+}
 body{
-	background: url("2.jpg");
-	/*background:url("https://c.wallhere.com/photos/d1/4f/network_server_bokeh_computer_technology-131893.jpg!d") ;*/
-	 background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+background: url("2.jpg");
+/*background:url("https://c.wallhere.com/photos/d1/4f/network_server_bokeh_computer_technology-131893.jpg!d") ;*/
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
 }
 
 #mySidenav a {
-  position: absolute;
-  left:  -90px;
-  transition: 0.3s;
-  padding: 15px;
-  width: 100px;
-  text-decoration: none;
-  font-size: 20px;
-  color: white;
-  border-radius: 0 5px 5px 0;
+position: absolute;
+left:  -90px;
+transition: 0.3s;
+padding: 15px;
+width: 100px;
+text-decoration: none;
+font-size: 20px;
+color: white;
+border-radius: 0 5px 5px 0;
 }
 
 #mySidenav a:hover {
-  left:  0;
+left:  0;
 }
 #home {
-  
-  top: 200px;
-  background-color: #4CAF50;
+
+top: 200px;
+background-color: #4CAF50;
 
 }
 
 #about {
-  top:260px ;
-  background-color: #2196F3;
+top:260px ;
+background-color: #2196F3;
 }
 
 #search {
-  top:320px ;
-  background-color: #f44336;
+top:320px ;
+background-color: #f44336;
 }
 
 #members {
-  top:380px ;
-  background-color: #555;
+top:380px ;
+background-color: #555;
 }
 
 #header{
-	text-align: center;
-	font-size: 10vh;
-	font-family: 'Abril Fatface', cursive;
-	margin-top: 2vh;
-	/*color: #29c9ff;*/
-	color: white;
+text-align: center;
+font-size: 10vh;
+font-family: 'Abril Fatface', cursive;
+margin-top: 2vh;
+/*color: #29c9ff;*/
+color: white;
 }
 #container{
-	display: flex;
-	margin-left: 10vw;
-	margin-right: 10vw;
+display: flex;
+margin-left: 10vw;
+margin-right: 10vw;
 }
 
 .box{
-	height: 3vh;
-	width: 3vh;
-	border-radius: 50%;
-	border-color: red;
-	border: 2px;
+height: 3vh;
+width: 3vh;
+border-radius: 50%;
+border-color: red;
+border: 2px;
 }
 
 #dean-heading{
-    color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-    position:relative;
-    text-align: center;
-   padding-top: 1vh;
-    top:15vh;
-    font-size: 5vh;
-    font-weight: bold;
+color: white;
+text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+position:relative;
+text-align: center;
+padding-top: 1vh;
+top:15vh;
+font-size: 5vh;
+font-weight: bold;
 }
 
 #container{
-            display: flex;
-            margin-left: 10vw;
-            margin-right: 10vw;
- }
+      display: flex;
+      margin-left: 10vw;
+      margin-right: 10vw;
+}
 #box2{  
 
 
-            overflow-x: hidden;
-            overflow-y: hidden;
-            /*background-color: #f4f4f4;*/
-            margin-top: 19vh;
-            margin-right: 3vw; 
-            /*padding-bottom: 5vh;*/
-            /*margin-bottom: 12vw;*/
-            text-align: center;
-            flex-basis: 33vw;
-            background-color: black;
-            border-radius: 50%;
-            margin-bottom:8vh;
-            box-sizing:border-box;
-           /* -webkit-box-shadow: 10px 10px 5px 0px rgba(224,221,224,1);
-            -moz-box-shadow: 10px 10px 5px 0px rgba(224,221,224,1);
-            box-shadow: 10px 10px 5px 0px rgba(224,221,224,1);*/
-            border-top: 5px solid maroon;
-    
+      overflow-x: hidden;
+      overflow-y: hidden;
+      /*background-color: #f4f4f4;*/
+      margin-top: 19vh;
+      margin-right: 3vw; 
+      /*padding-bottom: 5vh;*/
+      /*margin-bottom: 12vw;*/
+      text-align: center;
+      flex-basis: 33vw;
+      background-color:  opacity:0.6;
+      border-radius: 50%;
+      margin-bottom:8vh;
+      box-sizing:border-box;
+     /* -webkit-box-shadow: 10px 10px 5px 0px rgba(224,221,224,1);
+      -moz-box-shadow: 10px 10px 5px 0px rgba(224,221,224,1);
+      box-shadow: 10px 10px 5px 0px rgba(224,221,224,1);*/
+      border-top: 5px solid maroon;
+       border-bottom: 5px solid maroon;
+
 }
 .dean-image1{
-    background:url("hiresh.jpg");
-    height: 30vh;
-    flex-basis:15vw;
-    margin-top: 5vh;
-    margin-bottom: 4vh;
-    margin-right: 2vw;
-    margin-left: 2vw;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+background:url("hiresh.jpg");
+height: 30vh;
+flex-basis:15vw;
+margin-top: 5vh;
+margin-bottom: 4vh;
+margin-right: 2vw;
+margin-left: 2vw;
+border-radius: 50%;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
 #box3{      
-            overflow-x: hidden;
-            overflow-y: hidden;
-            /*background-color: #f4f4f4;*/
-            margin-top: 19vh;
-           margin-right: 3vw;
-            padding-bottom: 5vh;
-            margin-bottom: 12vw;
-            text-align: center;
-            flex-basis: 33vw;
-            background-color: black;
-            border-radius: 50%;
-            margin-bottom:8vh;
-            box-sizing:border-box;
-           /* -webkit-box-shadow: 10px 10px 5px 0px rgba(224,221,224,1);
-            -moz-box-shadow: 10px 10px 5px 0px rgba(224,221,224,1);
-            box-shadow: 10px 10px 5px 0px rgba(224,221,224,1);*/
-            border-top: 5px solid maroon;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      /*background-color: #f4f4f4;*/
+      margin-top: 19vh;
+     margin-right: 3vw;
+      padding-bottom: 5vh;
+      margin-bottom: 12vw;
+      text-align: center;
+      flex-basis: 33vw;
+      background-color: opacity:0.6;
+      border-radius: 50%;
+      margin-bottom:8vh;
+      box-sizing:border-box;
+     /* -webkit-box-shadow: 10px 10px 5px 0px rgba(224,221,224,1);
+      -moz-box-shadow: 10px 10px 5px 0px rgba(224,221,224,1);
+      box-shadow: 10px 10px 5px 0px rgba(224,221,224,1);*/
+      border-top: 5px solid maroon;
+       border-bottom: 5px solid maroon;
 
 
 }
 .dean-image2{
-    background:url("sabira.jpg");
-    height: 30vh;
-    flex-basis:15vw;
-    margin-top: 5vh;
-    margin-bottom: 4vh;
-    margin-right: 2vw;
-    margin-left: 2vw;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+background:url("sabira.jpg");
+height: 30vh;
+flex-basis:15vw;
+margin-top: 5vh;
+margin-bottom: 4vh;
+margin-right: 2vw;
+margin-left: 2vw;
+border-radius: 50%;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
 
 #box4{
-			/*border-radius: 50vh;*/
-            overflow-x: hidden;
-            overflow-y: hidden;
-            /*background-color: #f4f4f4;*/
-            margin-top: 19vh;      
-            padding-bottom: 5vh;
-            margin-bottom: 12vw;
-            text-align: center;
-            flex-basis: 33vw;
-            background-color: white;
-            border-radius: 50%;
-            margin-bottom:8vh;
-            box-sizing:border-box;
-            transition: all linear 2s;
-            /*-webkit-box-shadow: 10px 10px 5px 0px rgba(224,221,224,1);
-            -moz-box-shadow: 10px 10px 5px 0px rgba(224,221,224,1);
-            box-shadow: 10px 10px 5px 0px rgba(224,221,224,1);*/
-            border-top: 5px solid maroon;
+/*border-radius: 50vh;*/
+      overflow-x: hidden;
+      overflow-y: hidden;
+      /*background-color: #f4f4f4;*/
+      margin-top: 19vh;      
+      padding-bottom: 5vh;
+      margin-bottom: 12vw;
+      text-align: center;
+      flex-basis: 33vw;
+      background-color: opacity:0.6;
+      border-radius: 50%;
+      margin-bottom:8vh;
+      box-sizing:border-box;
+      transition: all linear 2s;
+      /*-webkit-box-shadow: 10px 10px 5px 0px rgba(224,221,224,1);
+      -moz-box-shadow: 10px 10px 5px 0px rgba(224,221,224,1);
+      box-shadow: 10px 10px 5px 0px rgba(224,221,224,1);*/
+      border-top: 5px solid maroon;
+       border-bottom: 5px solid maroon;
 
 }
 .dean-image3{
-    background:url("manish.jpg");
-    height: 30vh;
-    flex-basis:15vw;
-    margin-top: 5vh;
-    margin-bottom: 4vh;
-    margin-right: 2vw;
-    margin-left: 2vw;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+background:url("manish.jpg");
+height: 30vh;
+flex-basis:15vw;
+margin-top: 5vh;
+margin-bottom: 4vh;
+margin-right: 2vw;
+margin-left: 2vw;
+border-radius: 50%;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
 #box5{  
 
-			/*border-radius: 50%;*/
-            overflow-x: hidden;
-            overflow-y: hidden;
-            background-color: #f4f4f4;
-            margin-top: 19vh;
-            margin-left: 3vw; 
-            padding-bottom: 5vh;
-            margin-bottom: 12vw;
-            text-align: center;
-            flex-basis: 33vw;
-            /*background-color: white;*/
-            border-radius: 50%;
-            margin-bottom:8vh;
-            box-sizing:border-box;
-            /*-webkit-box-shadow: 10px 10px 5px 0px rgba(224,221,224,1);
-            -moz-box-shadow: 10px 10px 5px 0px rgba(224,221,224,1);
-            box-shadow: 10px 10px 5px 0px rgba(224,221,224,1);*/
-            border-top: 5px solid maroon;
-    
+/*border-radius: 50%;*/
+      overflow-x: hidden;
+      overflow-y: hidden;
+      /*background-color: #f4f4f4;*/
+      margin-top: 19vh;
+      margin-left: 3vw; 
+      padding-bottom: 5vh;
+      margin-bottom: 12vw;
+      text-align: center;
+      flex-basis: 33vw;
+      background-color: opacity 0.6;
+      border-radius: 50%;
+      margin-bottom:8vh;
+      box-sizing:border-box;
+      /*-webkit-box-shadow: 10px 10px 5px 0px rgba(224,221,224,1);
+      -moz-box-shadow: 10px 10px 5px 0px rgba(224,221,224,1);
+      box-shadow: 10px 10px 5px 0px rgba(224,221,224,1);*/
+      border-top: 5px solid maroon;
+       border-bottom: 5px solid maroon;
+
 }
 .dean-image4{
-    background:url("1.jpg");
-    height: 30vh;
-    flex-basis:15vw;
-    margin-top: 5vh;
-    margin-bottom: 4vh;
-    margin-right: 2vw;
-    margin-left: 2vw;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+background:url("1.jpg");
+height: 30vh;
+flex-basis:15vw;
+margin-top: 5vh;
+margin-bottom: 4vh;
+margin-right: 2vw;
+margin-left: 2vw;
+border-radius: 50%;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
 
 
@@ -238,8 +246,8 @@ color: maroon;
 }
 
 #dean-image2-overlay{
-    position: relative;
-    top:  100vh;
+position: relative;
+top:  100vh;
 text-align: center;
 cursor: pointer;
 font-size: 2.5vh;
@@ -252,8 +260,8 @@ color: maroon;
 }
 
 #dean-image3-overlay{
-    position: relative;
-    top:  100vh;
+position: relative;
+top:  100vh;
 text-align: center;
 cursor: pointer;
 font-size: 2.5vh;
@@ -266,8 +274,8 @@ color: maroon;
 }
 
 #dean-image4-overlay{
-    position: relative;
-    top:  100vh;
+position: relative;
+top:  100vh;
 text-align: center;
 cursor: pointer;
 font-size: 2.5vh;
