@@ -1,0 +1,105 @@
+*{
+        margin: 0px;
+        padding: 0px;
+    }
+body{
+	background: url("2.jpg");
+	/*background:url("https://c.wallhere.com/photos/d1/4f/network_server_bokeh_computer_technology-131893.jpg!d") ;*/
+	 background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+#mySidenav a {
+  position: absolute;
+  left:  -90px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left:  0;
+}
+#home {
+  
+  top: 200px;
+  background-color: #4CAF50;
+
+}
+
+#about {
+  top:260px ;
+  background-color: #2196F3;
+}
+
+#search {
+  top:320px ;
+  background-color: #f44336;
+}
+
+#members {
+  top:380px ;
+  background-color: #555;
+}
+#header{
+	text-align: center;
+	color: white;
+	font-size: 10vh;
+}
+#box{
+	margin-top: 8vh;
+		flex-wrap: wrap;
+		margin-left: 17vw;
+		margin-right: 17vw;
+			padding: 2vh;	
+			opacity: 0.75;
+			background-color: black; 
+	        flex-basis: 50vw;
+            border-radius: 10px;
+            box-sizing:border-box;
+			/*transition:.4s ease-in-out; */
+}
+/*
+#box:hover { 
+	transform: scale(1.1); 
+	cursor: pointer;
+}*/
+#Aboutt{
+	color: white;
+	font-size: 4.5vh;
+}
+
+
+a {
+  text-decoration: none;
+  display: inline-block;
+ 
+}
+
+a:hover {
+  color: black;
+}
+
+.previous {
+  color: white;
+  margin-right: 1vw;
+}
+
+.next {
+ 	color: white;
+ 	margin-left: 1vw;
+}
+
+/*.round {
+  border-radius: 50%;
+}*/
+#button{
+	text-align: center;
+	margin-top: 18vh;
+}
+

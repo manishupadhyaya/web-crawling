@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="network3.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>	
+</head>
+<body>
+<div id="home1">
+	<div id="mySidenav" class="sidenav">
+        <a href="/home" id="home">Home</a>
+        <a href="/about" id="about">About</a>
+        <a href="/search" id="search">Search</a>
+        <a href="/member" id="members">Members</a>
+      </div>
+
+<div id="header">
+	Members
+</div>	
+
+    <div id ="container">
+        <div id="box2">
+            <div class = "dean-image1">
+                 <div id="dean-image1-overlay">
+                     
+                     <div class="prof-heading">HIRESH DAS</div>
+                                <br>
+                                 Scholar ID: 17-15-013 
+                                <br>
+                                 <!-- Phone:  (M) 
+                                <br>
+                                Email: deansw2011[at]yahoo[dot]com -->
+                 </div>   
+            </div>
+
+        </div>    
+
+        <div id="box3">
+            <div class="dean-image2">
+                <div id="dean-image2-overlay">
+                     
+                     <div class="prof-heading">SABIRA FARHEEN</div>
+                                <br>
+                                Scholar ID: 17-15-007 
+                                <br>
+                                <!--  Phone: 9435072301 (M) 
+                                <br>
+                                Email: deansw2011@yahoo.com -->
+                 </div>
+            </div>
+        </div>
+
+        <div id="box4">
+            <div class="dean-image3">
+                <div id="dean-image3-overlay">
+                     
+                     <div class="prof-heading">MANISH UPADHYAYA</div>
+                                <br>       
+                                Scholar ID: 17-15-042 
+                                <br>
+                                <!--  Phone:  
+                                <br>
+                                 Email: ppatowari@yahoo.com -->
+                 </div>
+            </div>
+        </div>
+                <div id="box5">
+            <div class="dean-image4">
+                <div id="dean-image4-overlay">
+                     
+                     <div class="prof-heading">Swapnanil Kr. Saikia</div>
+                                <br>       
+                                Scholar Id: 17-15-026
+                                <br>
+                                
+                 </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script >
+const box2=document.querySelector("#box2");
+    const deanImage1Overlay=document.querySelector("#dean-image1-overlay");
+    const hide2=()=>{
+
+    }
+    box2.addEventListener("mouseenter",()=>{
+        
+        deanImage1Overlay.style.top="0";
+    })
+    box2.addEventListener("mouseleave",()=>{
+        deanImage1Overlay.style.top=100+"vh";      
+    })
+
+</script>
+<script >
+const box3=document.querySelector("#box3");
+    const deanImage2Overlay=document.querySelector("#dean-image2-overlay");
+    const hide3=()=>{
+
+    }
+    box3.addEventListener("mouseenter",()=>{
+        
+        deanImage2Overlay.style.top="0";
+    })
+    box3.addEventListener("mouseleave",()=>{
+        deanImage2Overlay.style.top=100+"vw";      
+    })
+
+</script>
+<script >
+const box4=document.querySelector("#box4");
+    const deanImage3Overlay=document.querySelector("#dean-image3-overlay");
+    const hide4=()=>{
+
+    }
+    box4.addEventListener("mouseenter",()=>{
+        
+        deanImage3Overlay.style.top="0";
+    })
+    box4.addEventListener("mouseleave",()=>{
+        deanImage3Overlay.style.top=100+"vw";      
+    })
+
+</script>
+<script >
+const box5=document.querySelector("#box5");
+    const deanImage4Overlay=document.querySelector("#dean-image4-overlay");
+    const hide5=()=>{
+
+    }
+    box5.addEventListener("mouseenter",()=>{
+        
+        deanImage4Overlay.style.top="0";
+    })
+    box5.addEventListener("mouseleave",()=>{
+        deanImage4Overlay.style.top=100+"vw";      
+    })
+
+</script>
+</html>

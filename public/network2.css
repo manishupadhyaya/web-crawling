@@ -1,0 +1,137 @@
+*{
+        margin: 0px;
+        padding: 0px;
+    }
+body{
+	background: url("2.jpg");
+	/*background:url("https://c.wallhere.com/photos/d1/4f/network_server_bokeh_computer_technology-131893.jpg!d") ;*/
+	 background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#mySidenav a {
+  position: absolute;
+  left:  -90px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left:  0;
+}
+#home {
+  
+  top: 200px;
+  background-color: #4CAF50;
+
+}
+
+#about {
+  top:260px ;
+  background-color: #2196F3;
+}
+
+#search {
+  top:320px ;
+  background-color: #f44336;
+}
+
+#members {
+  top:380px ;
+  background-color: #555;
+}
+
+
+#header{
+	text-align: center;
+	font-size: 10vh;
+	font-family: 'Abril Fatface', cursive;
+	margin-top: 10vh;
+	/*color: #29c9ff;*/
+	color: white;
+}
+
+.search-box{
+	opacity: 0.95;
+	/*margin-top: 120vh;*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #2f3640;
+	height: 48px;
+	border-radius: 30px;
+	padding: 15px;
+}
+
+.search-box:hover > .search-txt{
+	width: 240px;
+	padding: 5px 6px;	
+}
+
+.search-box:hover > .search-btn{
+	background: white;
+}
+.search-btn{
+	color: #e84188;
+	float: right;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #2f3640;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+}
+
+.search-txt{
+	border: none;
+	background:none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+ 
+}
+
+a:hover {
+  color: black;
+}
+
+.previous {
+  color: white;
+  margin-right: 1vw;
+}
+
+.next {
+ 	color: white;
+ 	margin-left: 1vw;
+}
+
+/*.round {
+  border-radius: 50%;
+}*/
+#button{
+	position: absolute;
+	text-align: center;
+	left: 47%;
+	bottom: 5%;
+}

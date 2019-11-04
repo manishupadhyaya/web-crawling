@@ -1,0 +1,22 @@
+ *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+body{
+	padding:0;
+	margin:0;
+	
+}
+
+body{
+	background:url("https://c.wallhere.com/photos/d1/4f/network_server_bokeh_computer_technology-131893.jpg!d") ;
+	 background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+#id{
+  background-color: white;
+}

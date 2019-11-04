@@ -1,0 +1,232 @@
+ *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+body{
+	padding:0;
+	margin:0;
+	
+}
+
+body{
+	background: url("2.jpg");
+	/*background:url("https://c.wallhere.com/photos/d1/4f/network_server_bokeh_computer_technology-131893.jpg!d") ;*/
+	 background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#mySidenav a {
+  position: absolute;
+  left:  -90px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left:  0;
+}
+
+#home {
+  
+  top: 200px;
+  background-color: #4CAF50;
+
+}
+
+#about {
+  top:260px ;
+  background-color: #2196F3;
+}
+
+#search {
+  top:320px ;
+  background-color: #f44336;
+}
+
+#members {
+  top:380px ;
+  background-color: #555;
+}
+
+#header{
+	text-align: center;
+	font-size: 10vh;
+	font-family: 'Abril Fatface', cursive;
+	margin-top: 2vh;
+	/*color: #29c9ff;*/
+	color: white;
+}
+hr.style-one {
+    border: 0;
+    margin-top: 2vh;
+    height: 2px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+#title{
+	text-align: center;
+	margin-top: 10vh;
+	font-size: 8.5vh;
+	font-family: 'Abril Fatface', cursive;
+	color: #69f542;
+}
+
+#theme{
+	margin-top: 3vh;
+	justify-content: center;
+	color: #90f542;
+	margin-left: 25vw;
+	margin-right: 25vw;
+	font-size: 5.5vh;
+	font-family: 'Abril Fatface', cursive;
+}
+
+p{
+	text-align: center;
+	font-family: 'Abril Fatface', cursive;
+}
+#box{
+	margin-top: 2vh;
+		flex-wrap: wrap;
+		margin-left: 15vw;
+		margin-right: 15vw;
+			padding: 2vh;	
+			opacity: 0.75;
+			background-color: black; 
+	        flex-basis: 50vw;
+            border-radius: 10px;
+            box-sizing:border-box;
+			transition:.4s ease-in-out; 
+}
+
+#box:hover { 
+	transform: scale(1.1); 
+	cursor: pointer;
+}
+
+
+
+
+.search-box{
+	opacity: 0.95;
+	margin-top: 120vh;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #2f3640;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+
+.search-box:hover > .search-txt{
+	width: 240px;
+	padding: 0 6px;	
+}
+
+.search-box:hover > .search-btn{
+	background: white;
+}
+.search-btn{
+	color: #e84188;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #2f3640;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+}
+
+.search-txt{
+	border: none;
+	background:none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+
+}
+
+/*.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   opacity: 0.95;
+   
+
+}
+
+#name{
+	display: flex;
+	justify-content: space-around;
+}*/
+#Aboutt{
+	margin-top: 75vh;
+	color: white;
+}
+
+#Members{
+	margin-top: 150vh;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+ 
+}
+
+a:hover {
+  color: black;
+}
+
+.previous {
+  color: white;
+  margin-right: 1vw;
+}
+
+.next {
+ 	color: white;
+ 	margin-left: 1vw;
+}
+
+/*.round {
+  border-radius: 50%;
+}*/
+#button{
+	text-align: center;
+	margin-top: 25vh;
+}
+
+
+
+
+
+
+
+
+
+
